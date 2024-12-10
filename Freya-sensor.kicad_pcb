@@ -3576,12 +3576,12 @@
 		(at 146 106.6 90)
 		(descr "Bosch BME680 temperature/humidity/pressure/gas sensor")
 		(property "Reference" "U1"
-			(at -2.915 0 180)
+			(at 0 -2.6 180)
 			(layer "F.SilkS")
 			(uuid "b6198724-aef2-4ee4-a7be-561c1b15d487")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)

@@ -3179,7 +3179,7 @@
 		)
 		(uuid "539272b7-39df-4ea1-a5c6-88e9ffac3242")
 	)
-	(text "Address: 0x77"
+	(text "Address: 0x76"
 		(exclude_from_sim no)
 		(at 25.4 25.4 0)
 		(effects
@@ -3259,7 +3259,7 @@
 		)
 		(uuid "926a9cec-3030-49c7-a72a-7132ce7b468c")
 	)
-	(text "Address: 0x48"
+	(text "Address: 0x10"
 		(exclude_from_sim no)
 		(at 163.83 25.4 0)
 		(effects
