@@ -1,4 +1,4 @@
-![Freya banner](https://raw.githubusercontent.com/Freya-Vivariums/.github/main/documentation/Freya_banner.png)
+![Freya banner](https://raw.githubusercontent.com/Freya-Vivariums/.github/refs/heads/main/brand/Freya_banner.png)
 
 <img src="documentation/Sensor_rendering.png" align="right" width="40%"/>
 
