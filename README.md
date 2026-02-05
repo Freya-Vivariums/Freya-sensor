@@ -5,9 +5,12 @@
 The sensor is Freya's eyes and ears in the vivarium - the hardware that enables measurement of environmental conditions experienced by the inhabitants of the vivarium.
 
 #### Capabilities:
-- **BME680**: temperature, humidity, pressure, air quality sensor
-- **VEML6030**: Ambient light sensor (visible spectrum)
-- **AS7331**: UVA/UVB/UVC spectral sensor (220-400nm)
+- Temperature
+- Relative air humidity
+- Barometric pressure
+- Air quality (VOC)
+- Ambient light (visible spectrum)
+- UVA/UVB/UVC (spectral 220-400nm)
 
 <br clear="right"/>
 
