@@ -1,8 +1,8 @@
 ![Freya banner](https://raw.githubusercontent.com/Freya-Vivariums/.github/main/documentation/Freya_banner.png)
 
-<img src="documentation/Freya_sensor.jpg" align="right" width="40%"/>
+<img src="documentation/Sensor_rendering.png" align="right" width="40%"/>
 
-The **Freya Sensor** ...
+This sensor is Freya's eyes and ears in the vivarium.
 
 <br clear="right"/>
 
