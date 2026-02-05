@@ -11,6 +11,22 @@ The sensor is Freya's eyes and ears in the vivarium - the hardware that enables 
 
 <br clear="right"/>
 
+## Hardware
+The Freya Sensor is a curated collection of high-end integrated circuit sensors designed for comprehensive environmental monitoring in demanding conditions, with a standard JST connector for increased repairability and direct compatibility with a wide range of ecosystems.
+
+#### BME680
+**I2C Address:** 0x76 
+
+#### VEML6030
+**I2C Address:** 0x10
+
+#### AS7331
+**I2C Address:** 0x74 
+
+> [!NOTE]  
+> The PCB is finished with a coating for resisting the humid conditions.
+
+## Enclosure
 
 ## License & Collaboration
 **Copyright© 2024 Sanne 'SpuQ' Santens**. This project is released under the [**CERN OHL-W**](LICENSE.txt) license. However, [trademark rules](https://github.com/Freya-Vivariums/.github/blob/main/brand/Freya_Trademark_Rules_and_Guidelines.md) apply to the Freya™ brand.
