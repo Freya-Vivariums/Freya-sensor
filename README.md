@@ -32,6 +32,9 @@ I2C Address: **0x74**
 
 Three-channel spectral UV sensor with separated UVA, UVB, and UVC detection for UV bulb monitoring and safety verification. **[Datasheet](https://look.ams-osram.com/m/1856fd2c69c35605/original/AS7331-Spectral-UVA-B-C-Sensor.pdf)**
 
+#### Power
+The sensor module operates internally at 3.3V but accepts 5V input for improved noise immunity over longer cable runs. An on-board voltage regulator (**MIC5225-3.3YM5**) provides clean 3.3V power to all sensor ICs, while a bi-directional level shifter handles I²C communication between the 5V bus and 3.3V sensors.
+
 > [!NOTE]  
 > The PCB is finished with a coating for resisting the humid conditions.
 
