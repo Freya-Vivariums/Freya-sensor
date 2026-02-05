@@ -14,14 +14,20 @@ The sensor is Freya's eyes and ears in the vivarium - the hardware that enables 
 ## Hardware
 The Freya Sensor is a curated collection of high-end integrated circuit sensors designed for comprehensive environmental monitoring in demanding conditions, with a standard JST connector for increased repairability and direct compatibility with a wide range of ecosystems.
 
-#### BME680
+#### Bosch BME680
 **I2C Address:** 0x76 
 
-#### VEML6030
+Integrated environmental sensor combining temperature, humidity, barometric pressure, and VOC gas sensing for air quality monitoring. **[Datasheet](https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bme680-ds001.pdf)**
+
+#### Vishay VEML6030
 **I2C Address:** 0x10
+
+High-accuracy ambient light sensor with spectral response matching the human eye for precise lux measurement and photoperiod management. **[Datasheet](https://www.vishay.com/docs/84366/veml6030.pdf)**
 
 #### AS7331
 **I2C Address:** 0x74 
+
+Three-channel spectral UV sensor with separated UVA, UVB, and UVC detection for UV bulb monitoring and safety verification. **[Datasheet](https://look.ams-osram.com/m/1856fd2c69c35605/original/AS7331-Spectral-UVA-B-C-Sensor.pdf)**
 
 > [!NOTE]  
 > The PCB is finished with a coating for resisting the humid conditions.
