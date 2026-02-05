@@ -15,7 +15,7 @@ The sensor is Freya's eyes and ears in the vivarium - the hardware that enables 
 <br clear="right"/>
 
 ## Hardware
-The Freya Sensor is a curated collection of high-end integrated circuit sensors designed for comprehensive environmental monitoring in demanding conditions, with a standard JST connector for increased repairability and direct compatibility with a wide range of ecosystems.
+Designed with KiCad, the Freya Sensor is a curated collection of high-end integrated circuit sensors for comprehensive environmental monitoring in demanding conditions, with repairability and growth in mind.
 
 #### Bosch BME680
 **I2C Address:** 0x76 
