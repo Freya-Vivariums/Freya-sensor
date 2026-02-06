@@ -65,7 +65,7 @@ Applications interact with the sensor via D-Bus on the system bus:
 - **Signals:** `measurement(variable: string, value: string)` - Emits readings for temperature, humidity, pressure, light, UVA, UVB, and UVC
 
 ## License & Collaboration
-**Copyright© 2024-2025 Sanne 'SpuQ' Santens**. The hardware and enclosure are released under the [**CERN OHL-W**](Hardware/LICENSE.txt) license. The software is released under the [**MIT**](Software/LICENSE.txt) license. [Trademark rules](https://github.com/Freya-Vivariums/.github/blob/main/brand/Freya_Trademark_Rules_and_Guidelines.md) apply to the Freya™ brand.
+**Copyright© 2024-2026 Sanne 'SpuQ' Santens**. The hardware and enclosure are released under the [**CERN OHL-W**](Hardware/LICENSE.txt) license. The software is released under the [**GPL-3.0**](Software/LICENSE.txt) license. [Trademark rules](https://github.com/Freya-Vivariums/.github/blob/main/brand/Freya_Trademark_Rules_and_Guidelines.md) apply to the Freya™ brand.
 
 ### Collaboration
 
