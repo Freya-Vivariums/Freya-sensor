@@ -40,8 +40,32 @@ The sensor module operates internally at 3.3V but accepts 5V input for improved 
 
 ## Enclosure
 
+## Software
+The sensor driver is a TypeScript/Node.js application that runs as a systemd service on Linux/Debian systems. It provides sensor readings via D-Bus for integration with the Freya Vivarium Control System.
+
+#### Installation
+When installing the Freya system, the sensor driver is automatically installed. For manual installation:
+
+```bash
+wget -O install.sh https://github.com/Freya-Vivariums/Freya-terra-sensor/releases/latest/download/install.sh
+chmod +x ./install.sh
+sudo ./install.sh
+```
+
+The service runs automatically and can be monitored with:
+```bash
+systemctl status io.freya.EnvironmentSensorDriver.service
+journalctl -u io.freya.EnvironmentSensorDriver.service -f
+```
+
+#### D-Bus Interface
+Applications interact with the sensor via D-Bus on the system bus:
+- **Service:** `io.freya.EnvironmentSensorDriver`
+- **Path:** `/io/freya/EnvironmentSensorDriver`
+- **Signals:** `measurement(variable: string, value: string)` - Emits readings for temperature, humidity, pressure, light, UVA, UVB, and UVC
+
 ## License & Collaboration
-**Copyright© 2024 Sanne 'SpuQ' Santens**. This project is released under the [**CERN OHL-W**](LICENSE.txt) license. However, [trademark rules](https://github.com/Freya-Vivariums/.github/blob/main/brand/Freya_Trademark_Rules_and_Guidelines.md) apply to the Freya™ brand.
+**Copyright© 2024-2025 Sanne 'SpuQ' Santens**. The hardware and enclosure are released under the [**CERN OHL-W**](Hardware/LICENSE.txt) license. The software is released under the [**MIT**](Software/LICENSE.txt) license. [Trademark rules](https://github.com/Freya-Vivariums/.github/blob/main/brand/Freya_Trademark_Rules_and_Guidelines.md) apply to the Freya™ brand.
 
 ### Collaboration
 
