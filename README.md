@@ -4,7 +4,7 @@
 
 The sensor is Freya's eyes and ears in the vivarium - the hardware that enables measurement of environmental conditions experienced by the inhabitants of the vivarium.
 
-#### Capabilities:
+#### Measurement capabilities:
 - Temperature
 - Relative air humidity
 - Barometric pressure
